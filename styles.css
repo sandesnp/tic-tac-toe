@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Potta One', cursive;
+}
+
+.won {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.won a {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2rem;
+	color: black;
+	border: solid black 2px;
+	border-radius: 10px;
+	padding: 1rem 2rem;
+}
+.won a:hover {
+	background-color: cadetblue;
+	color: white;
+}
+
+.tic-tac-toe {
+	margin: 0 auto;
+}
+.box {
+	border: solid black 2px;
+	padding: 5rem;
+}
+
+.box-0-0 {
+	border-radius: 20px 0px 0px 0px;
+}
+.box-0-2 {
+	border-radius: 0px 20px 0px 0px;
+}
+.box-2-0 {
+	border-radius: 0px 0px 0px 20px;
+}
+.box-2-2 {
+	border-radius: 0px 0px 20px 0px;
+}
+
+.togg-red {
+	background-color: rgb(201, 103, 90);
+}
+
+.togg-blue {
+	background-color: #6c99c5;
+}
+.hidden {
+	visibility: hidden;
+}
